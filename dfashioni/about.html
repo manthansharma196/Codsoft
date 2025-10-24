@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>About Dfashioni</title>
+  <meta name="description" content="Learn about Dfashioni's story, mission, and values." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="container nav">
+      <a class="brand" href="index.html">d<span>fashioni</span></a>
+      <nav class="nav-links">
+        <a class="active" href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <h1>Our Story</h1>
+        <p class="muted">Crafted basics. Modern silhouettes. Effortless style for every day.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container grid grid-2">
+        <div class="card">
+          <h2>Mission</h2>
+          <p>At Dfashioni, our mission is to make dressing well simple. We create elevated essentials with premium materials, precise fits, and enduring quality—pieces you’ll reach for season after season.</p>
+        </div>
+        <div class="card">
+          <h2>Values</h2>
+          <ul>
+            <li><strong>Quality over quantity</strong> — fewer, better pieces.</li>
+            <li><strong>People-first</strong> — thoughtful service and inclusive sizing.</li>
+            <li><strong>Responsible sourcing</strong> — better materials, better impact.</li>
+            <li><strong>Timeless design</strong> — style that lasts beyond trends.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container card">
+        <h2>Behind the name</h2>
+        <p>“Dfashioni” blends design and fashion with an intentional ‘i’—a nod to individuality. Our collections are built to complement your unique style, not define it.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">© <span id="year"></span> Dfashioni. All rights reserved.</div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

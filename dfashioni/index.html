@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Dfashioni — Modern Clothing Retail</title>
+  <meta name="description" content="Dfashioni is a modern clothing retail brand. Learn about us and get in touch." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="container nav">
+      <div class="brand">d<span>fashioni</span></div>
+      <nav class="nav-links">
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <h1>Welcome to Dfashioni</h1>
+        <p class="muted">Discover our story and reach us anytime.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container grid grid-2">
+        <div class="card">
+          <h2>About us</h2>
+          <p>We’re a contemporary clothing retail brand focused on quality, fit, and timeless design. Learn more about our mission and values.</p>
+          <a href="about.html" class="button">Read our story</a>
+        </div>
+        <div class="card">
+          <h2>Contact</h2>
+          <p>Questions, partnerships, or feedback? Our team would love to hear from you.</p>
+          <a href="contact.html" class="button">Get in touch</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">© <span id="year"></span> Dfashioni. All rights reserved.</div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
